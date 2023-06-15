@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+## Audio player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Audio Player is an interactive web application developed based on React library with Redux Toolkit and RTK Query allows users to conveniently play and manage audio files. It gives the user the ability to play music, create playlists, control volume, rewind tracks, and more.
+
+The main features are:
+1. Audio Playback: React's audio player allows the user to select and play audio files from the server.
+2. Playback Controls: Users have access to basic playback controls such as pause, play, fast-forward/fast-backward, move through the current track and skip to the next/previous track.
+3. Create and manage playlists: Users can create their own playlists, add and remove tracks from them, and switch between different playlists to play music.
+4. Volume and Sound: Users can adjust playback volume, and control sound settings such as mute/mute.
+5. User Interface: The React audio player offers a user interface that provides ease of use, intuitive navigation, and displays information about the current track and playback time.
+
+## Technology:
+- React: The project is designed using the React library to build a component user interface and manage application state.
+- HTML/CSS: Used to structure and style components and user interface layouts.
+- JavaScript: Used to add additional functionality, event handling and audio playback control.
+- Redux Toolkit: Used for managing application state, including storing information about playback, playlists and other data.
+- RTK Query: Used to manage requests to the server and update data related to audio files using a flexible and convenient API.
+- Material-UI: Allows an interface to be styled in a way that is simple and straightforward for developers and users.
+- React-dropzone: Used to simplify pouring user files from their device.
+- DND-kit: Used for editing the order of tracks in a playlist.
+
+
+Benefits:
+- Intuitive user interface for easy and convenient navigation.
+- Support for playlists and track management.
+- Flexible playback and sound settings.
+- Scalable and expandable functionality.
+
+React audio player project with Redux Toolkit, RTK Query and Material-UI is a powerful tool for playing and managing audio files with user-friendly interface and flexible functionality.
 
 ## Available Scripts
 
